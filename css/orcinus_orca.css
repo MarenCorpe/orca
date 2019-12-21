@@ -1,0 +1,330 @@
+body {
+
+	background-color: #fbead9;
+}
+
+h1 {
+	position: relative;
+	left: 45%;
+	color: #f07c68;
+	font-family: 'Calistoga', cursive;
+	font-size: 100px;
+}
+
+h2 {
+	position: relative;
+	left: 45%;
+	color: #f07c68;font-family: 'Calistoga', cursive;
+	font-size: 50px;
+}
+
+h3 {
+	position: relative;
+	left: 45%;
+	color: #f07c68;font-family: 'Calistoga', cursive;
+	font-size: 23px;
+}
+
+#h2_blue {
+	position: relative;
+	left: 45%;
+	color: #fdf9F5;font-family: 'Calistoga', cursive;
+	font-size: 50px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	left: 45%;
+	line-height: 1.6;
+	color: #f07c68;
+}
+
+#p_blue {
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	left: 45%;
+	line-height: 1.6;
+	color: #fdf9F5;
+}
+
+.container {
+	width: 1200px;
+	height: 5250px;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	overflow: hidden;
+}
+
+#intro {
+	position: absolute;
+	top: 350px;
+}
+
+/* diet & behavior */
+
+#diet_and_behavior {
+	position: relative;
+	width: 1200px;
+	top: 1000px;
+}
+
+#disc {
+	width: 300px;
+	position: relative;
+	top: -500px;
+	left: 150px;
+}
+
+#seal_1 {
+	position: relative;
+	width: 400px;
+	top: -500px;
+	left: -240px;
+	z-index: 1;
+}
+
+#seal_2 {
+	position: relative;
+	width: 400px;
+	top: -450px;
+	left: -600px;
+}
+
+#seal_3 {
+	position: relative;
+	width: 400px;
+	top: -860px;
+	left: 80px;
+}
+
+#seal_4 {
+	position: relative;
+	width: 400px;
+	top: -840px;
+	left: -300px;
+}
+
+/* threats */
+
+#threats {
+	position: relative;
+	width: 1200px;
+	top: 600px;
+}
+
+#p_1 {
+	position: relative;
+	width: 400px;
+	top: -450px;
+	left: -200px;
+}
+
+#p_2 {
+	position: relative;
+	width: 400px;
+	top: -470px;
+	left: -620px;
+}
+
+#p_3 {
+	position: relative;
+	width: 400px;
+	top: -870px;
+	left: 90px;
+}
+
+/* social structure */
+
+#social_structure {
+	position: relative;
+	width: 1200px;
+	top: 300px;
+}
+
+#orca_1 {
+	position: relative;
+	width: 400px;
+	top: -850px;
+	left: -200px;
+}
+
+#orca_2 {
+	position: relative;
+	width: 400px;
+	top: -840px;
+	left: -625px;
+}
+
+#orca_3 {
+	position: relative;
+	width: 400px;
+	top: -1250px;
+	left: 20px;
+}
+
+#disc_ss {
+	width: 300px;
+	position: relative;
+	top: -900px;
+	left: 150px;
+}
+
+#waves {
+	position: relative;
+	width: 1900px;
+	left: -500px;
+	top: -750px;
+}
+
+
+
+
+.resident {
+	background-color: #146878;
+	position: relative;
+	width: 1600px;
+	height: 900px;
+	top: -500px;
+	left: -200px;
+}
+/* button */
+#r_1 {
+	position: relative;
+	top: -500px;
+	left: 324px;
+	width: 300px;
+	cursor: pointer;
+}
+/* filled button */
+#r_2 {
+	position: relative;
+	top: -500px;
+	left: 20px;
+	width: 300px;
+	cursor: pointer;
+	display: none;
+}
+#res {
+	position: relative;
+	top: -350px;
+	left: 23px;
+	display: none;
+}
+
+#res_illu {
+	position: relative;
+	top: -300px;
+	left: 200px;
+	z-index: 1;
+}
+
+#disc_res {
+	width: 300px;
+	position: relative;
+	top: -500px;
+	left: -277px;
+}
+
+
+
+.transient {
+	background-color: #146878;
+	position: relative;
+	width: 1600px;
+	height: 0px;
+	top: -500px;
+	left: -545px;
+}
+/* button */
+#t_1 {
+	position: relative;
+	top: -1399px;
+	left: 1000px;
+	width: 300px;
+	cursor: pointer;
+}
+/* filled button */
+#t_2 {
+	position: relative;
+	top: -1399px;
+	left: 696px;
+	width: 300px;
+	display: none;
+	cursor: pointer;
+}
+
+#tran {
+	position: absolute;
+	top: -897px;
+	left: 813px;
+	display: none;
+}
+
+#tran_illu {
+	position: absolute;
+	top: -40px;
+	left: -250px;
+	z-index: 1;
+
+}
+
+#disc_tran {
+	position: relative;
+	width: 300px;
+	top: -220px;
+	left: -120px;
+}
+
+
+.offshore {
+	background-color: #146878;
+	position: relative;
+	width: 1600px;
+	height: 0px;
+	top: -500px;
+	left: -560px;
+}
+/* button */
+#o_1 {
+	position: relative;
+	width: 300px;
+	left: 1348px;
+	top: -1400px;
+}
+/* filled button */
+#o_2 {
+	position: relative;
+	width: 300px;
+	cursor: pointer;
+	display: none;
+	left: 1044px;
+	top: -1400px;
+}
+
+#off {
+	position: absolute;
+	top: -897px;
+	left: 815px;
+	display: none;
+}
+
+#off_illu {
+	position: absolute;
+	top: -40px;
+	left: -262px;
+	z-index: 6;
+
+}
+
+#disc_off {
+	position: relative;
+	width: 300px;
+	top: -78px;
+	left: -123px;
+}
+
+
+
+
